@@ -4,18 +4,21 @@ import java.util.Scanner;
 public class LowerLimitAndUpperLimit {
 
     public static void main(String[] args) {
+        // for reading input from user
         Scanner reader = new Scanner(System.in);
 
-        // write your code here
+         // ask user input
         System.out.println("First: ");
         int first = Integer.parseInt(reader.nextLine());
         System.out.println("Last: ");
         int last = Integer.parseInt(reader.nextLine());
 
+        // loop
         while (first <= last) {
+            // print out variable
             System.out.println(first);
-            first++;  // number++ means the same as number = number + 1
+            // increase variable by 1
+            first++;
         }
-
     }
 }

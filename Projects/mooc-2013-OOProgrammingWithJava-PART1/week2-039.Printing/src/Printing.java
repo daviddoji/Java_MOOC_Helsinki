@@ -1,52 +1,68 @@
 public class Printing {
 
+    // method
     public static void printStars(int amount) {
-        // 39.1
-        // you can print one star with the command
-        // System.out.print("*");
-        // call this command amount times
+        // definition of varibles
         int i = 1;
+        
+        // loop
         while (i <= amount) {
+            // print out
             System.out.print("*");
+            // increase variable by 1
             i++;
         }
+        // print out line break
         System.out.print("\n");
     }
 
+    // method
     public static void printSquare(int sideSize) {
-        // 39.2
+        // definition of variables
         int i = 1;
+        
+        // loop
         while (i <= sideSize) {
+            // method call
             printStars(sideSize);
+            // increase variable by 1
             i++;
         }
     }
 
+    // method
     public static void printRectangle(int width, int height) {
-        // 39.3
+        // definition of variables
         int i = 1;
+        
+        // loop
         while (i <= height) {
+            // method call
             printStars(width);
+            // increase variable by 1
             i++;
         }
     }
 
     public static void printTriangle(int size) {
-        // 39.4
+        // definition of variables
         int i = 1;
+        
+        // loop
         while (i <= size) {
+            // method call
             printStars(i);
+            // increase variable by 1
             i++;
         }
     }
 
+    // main program
     public static void main(String[] args) {
-        // Tests do not use main, yo can write code here freely!
-        // if you have problems with tests, please try out first 
-        // here to see that the printout looks correct
-
+        // method call
         printStars(3);
-        System.out.println("\n---");  // printing --- to separate the figures
+        // printing --- to separate the figures
+        System.out.println("\n---");  
         printSquare(4);
         System.out.println("\n---");
         printRectangle(5, 6);
@@ -54,5 +70,4 @@ public class Printing {
         printTriangle(3);
         System.out.println("\n---");
     }
-
 }

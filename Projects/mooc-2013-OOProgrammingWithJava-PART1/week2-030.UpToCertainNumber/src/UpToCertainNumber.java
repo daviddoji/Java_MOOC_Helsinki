@@ -5,18 +5,22 @@ import java.util.Scanner;
 public class UpToCertainNumber {
 
     public static void main(String[] args) {
+        // for reading input from user
         Scanner reader = new Scanner(System.in);
         
-        // Write your code here
+        // definition of variables
         int number = 1;
         
+        // ask user input
         System.out.println("Up to what number? ");
         int limit = Integer.parseInt(reader.nextLine());
 
+        // loop
         while (number <= limit) {
+            // print out variable
             System.out.println(number);
-            number++;  // number++ means the same as number = number + 1
+            // increase variable by 1
+            number++;
         }
-        
     }
 }

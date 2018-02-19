@@ -1,56 +1,83 @@
 public class PrintingLikeBoss {
 
-    // copy or rewrite the method of Assignment 39.1 here
+    // method
     public static void printStars(int amount) {
+        // definition of varibles
         int i = 1;
+        
+        // loop
         while (i <= amount) {
+            // print out
             System.out.print("*");
+            // increase variable by 1
             i++;
         }
-        System.out.println("");
+        // print out line break
+        System.out.print("\n");
     }
 
+    // method
     public static void printWhitespaces(int amount) {
-        // 40.1
+        // definition of variables
         int i = 1;
+        
+        // loop
         while (i <= amount) {
+            // print out
             System.out.print(" ");
+            // increase variable by 1
             i++;
         }
     }
 
+    // method
     public static void printTriangle(int size) {
-        // 40.2
+        // definition of varibles
         int i = 1;
+        
+        // loop
         while (i <= size) {
+            // method calls
             printWhitespaces(size - i);
             printStars(i);
+            // increase variable by 1
             i++;
         }
     }
 
+    // method call
     public static void xmasTree(int height) {
-        // 40.3
+        // definition of variables
         int i = 1;
         int j = 1;
+        int k = 0;
+        
+        // loop for top of tree
         while (j <= height) {
+            // method calls
             printWhitespaces(height - j);
             printStars(i);
+            // increase variable by 2
             i+=2;
+            // increase variable by 1
             j++;
         }
-        int k = 0;
+        
+        // loop for bottom of tree
         while (k < 2) {
+            // method calls
             printWhitespaces(height - 2);
             printStars(3);
+            // increase varible by 1
             k++;
         }
     }
 
+    // main program
     public static void main(String[] args) {
-        // Tests do not use main, yo can write code here freely!
-
+        // method call
         printTriangle(5);
+        // printing --- to separate the figures
         System.out.println("---");
         xmasTree(4);
         System.out.println("---");

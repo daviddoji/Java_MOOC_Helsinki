@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class HangmanUserInteface {
 
     public static void main(String[] args) {
+        // for reading input from user
         Scanner reader = new Scanner(System.in);
+        // parse the method call into a varible
         Hangman hangman = new Hangman();
 
+        // print out menu
         System.out.println("***********");
         System.out.println("* HANGMAN  *");
         System.out.println("***********");
@@ -15,12 +18,13 @@ public class HangmanUserInteface {
         printMenu();
         System.out.println("");
 
-        // PROGRAM YOUR SOLUTION HERE
+        // loop
         while (hangman.gameOn()) {
             System.out.println("\nType a command: ");
             String command = reader.nextLine();
             
-            if (command.length() == 1) {  // command has only one letter, so it must be a guess
+            // command has only one letter, so it must be a guess
+            if (command.length() == 1) {  
                 hangman.guess(command);
             }
             
@@ -40,6 +44,7 @@ public class HangmanUserInteface {
         System.out.println("Thank you for playing!");
     }
 
+    // method
     public static void printMenu() {
         System.out.println(" * menu *");
         System.out.println("quit   - quits the game");

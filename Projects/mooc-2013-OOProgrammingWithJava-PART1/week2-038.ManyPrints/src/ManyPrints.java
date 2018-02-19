@@ -2,24 +2,30 @@
 import java.util.Scanner;
 
 public class ManyPrints {
-    // NOTE: do not change the method definition, e.g. add parameters to method
+    // method
     public static void printText() {
-        // Write your code here
-        System.out.println("In the beginning there were the swamp, the hoe and Java.");
+        // print out
+        System.out.println("In the beginning there were the swamp, the hoe"
+                + " and Java.");
     }
 
+    // main program
     public static void main(String[] args) {
-        // ask the user how many times the text should be printed
-        // use the while structure to call the printText method several times
+        // for reading input from user
         Scanner reader = new Scanner(System.in);
         
+        // ask user input
         System.out.println("How many? ");
         int times = Integer.parseInt(reader.nextLine());
         
+        // definition of variables
         int i = 1;
         
+        // loop
         while (i <= times) {
+            // method call
             printText();
+            // increase variable by 1
             i++;
         }
     }

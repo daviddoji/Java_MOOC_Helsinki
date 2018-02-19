@@ -2,14 +2,18 @@
 public class EvenNumbers {
 
     public static void main(String[] args) {
-        // Write your code here
+        // definition of variables
         int number = 1;
 
-        while (number <= 100) {
-            if (number % 2 == 0) {
+        // loop
+        while (number < 101) {
+            // check if number is even
+            if (number%2 == 0) {
+                // print out number
                 System.out.println(number);
             }
-            number++;  // number++ means the same as number = number + 1
+            // increase variable by 1
+            number++;
         }
     }
 }

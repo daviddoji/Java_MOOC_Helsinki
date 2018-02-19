@@ -2,13 +2,15 @@
 public class FromHundredToOne {
 
     public static void main(String[] args) {
-        // Write your program here
+        // definition of variables
         int number = 100;
 
+        // loop until 0
         while (number > 0) {
+            // print out number
             System.out.println(number);
-            number--;  // number++ means the same as number = number + 1
+            // decrease varible by 1
+            number--;
         }
-        
     }
 }
