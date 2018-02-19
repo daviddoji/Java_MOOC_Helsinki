@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class FirstCharacters {
     public static void main(String[] args) {
+        // for reading user input
         Scanner reader = new Scanner(System.in);
+        
+        // ask user input
         System.out.print("Type your name: ");
         String name = reader.nextLine();
         
