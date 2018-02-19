@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.search">
+    <module_version install_time="1475191375043" last="false" origin="installer" specification_version="1.16.1">
+        <file crc="3340943629" name="config/Modules/org-netbeans-modules-cnd-search.xml"/>
+        <file crc="839518003" name="modules/locale/org-netbeans-modules-cnd-search_ja.jar"/>
+        <file crc="4223812280" name="modules/locale/org-netbeans-modules-cnd-search_pt_BR.jar"/>
+        <file crc="310072110" name="modules/locale/org-netbeans-modules-cnd-search_ru.jar"/>
+        <file crc="2211784343" name="modules/locale/org-netbeans-modules-cnd-search_zh_CN.jar"/>
+        <file crc="379242355" name="modules/org-netbeans-modules-cnd-search.jar"/>
+    </module_version>
+    <module_version install_time="1516649945638" last="true" origin="NetBeans Distribution" specification_version="1.16.3">
+        <file crc="3340943629" name="config/Modules/org-netbeans-modules-cnd-search.xml"/>
+        <file crc="1486028967" name="modules/locale/org-netbeans-modules-cnd-search_ja.jar"/>
+        <file crc="3915085877" name="modules/locale/org-netbeans-modules-cnd-search_pt_BR.jar"/>
+        <file crc="3753662649" name="modules/locale/org-netbeans-modules-cnd-search_ru.jar"/>
+        <file crc="3393368859" name="modules/locale/org-netbeans-modules-cnd-search_zh_CN.jar"/>
+        <file crc="3055630454" name="modules/org-netbeans-modules-cnd-search.jar"/>
+    </module_version>
+</module>

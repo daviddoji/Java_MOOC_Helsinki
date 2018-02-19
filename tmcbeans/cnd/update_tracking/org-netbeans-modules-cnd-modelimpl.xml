@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.modelimpl/1">
+    <module_version install_time="1475191368270" last="false" origin="installer" specification_version="1.53.15.1">
+        <file crc="1463722270" name="config/Modules/org-netbeans-modules-cnd-modelimpl.xml"/>
+        <file crc="3794189341" name="modules/locale/org-netbeans-modules-cnd-modelimpl_ja.jar"/>
+        <file crc="3170200687" name="modules/locale/org-netbeans-modules-cnd-modelimpl_pt_BR.jar"/>
+        <file crc="2231235907" name="modules/locale/org-netbeans-modules-cnd-modelimpl_ru.jar"/>
+        <file crc="3654393833" name="modules/locale/org-netbeans-modules-cnd-modelimpl_zh_CN.jar"/>
+        <file crc="3492792818" name="modules/org-netbeans-modules-cnd-modelimpl.jar"/>
+    </module_version>
+    <module_version install_time="1516649948004" last="true" origin="NetBeans Distribution" specification_version="1.53.18.1">
+        <file crc="1463722270" name="config/Modules/org-netbeans-modules-cnd-modelimpl.xml"/>
+        <file crc="1985118682" name="modules/locale/org-netbeans-modules-cnd-modelimpl_ja.jar"/>
+        <file crc="716617677" name="modules/locale/org-netbeans-modules-cnd-modelimpl_pt_BR.jar"/>
+        <file crc="377457130" name="modules/locale/org-netbeans-modules-cnd-modelimpl_ru.jar"/>
+        <file crc="2683854705" name="modules/locale/org-netbeans-modules-cnd-modelimpl_zh_CN.jar"/>
+        <file crc="1799352376" name="modules/org-netbeans-modules-cnd-modelimpl.jar"/>
+    </module_version>
+</module>

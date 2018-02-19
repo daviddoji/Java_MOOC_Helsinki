@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.lexer/1">
+    <module_version install_time="1475191307778" last="false" origin="installer" specification_version="1.34.4.1">
+        <file crc="2258743473" name="config/Modules/org-netbeans-modules-cnd-lexer.xml"/>
+        <file crc="3896432070" name="modules/locale/org-netbeans-modules-cnd-lexer_ja.jar"/>
+        <file crc="2898473058" name="modules/locale/org-netbeans-modules-cnd-lexer_pt_BR.jar"/>
+        <file crc="2990068762" name="modules/locale/org-netbeans-modules-cnd-lexer_ru.jar"/>
+        <file crc="3456225732" name="modules/locale/org-netbeans-modules-cnd-lexer_zh_CN.jar"/>
+        <file crc="2883044866" name="modules/org-netbeans-modules-cnd-lexer.jar"/>
+    </module_version>
+    <module_version install_time="1516649945825" last="true" origin="NetBeans Distribution" specification_version="1.34.6.1">
+        <file crc="2258743473" name="config/Modules/org-netbeans-modules-cnd-lexer.xml"/>
+        <file crc="395094406" name="modules/locale/org-netbeans-modules-cnd-lexer_ja.jar"/>
+        <file crc="2422388555" name="modules/locale/org-netbeans-modules-cnd-lexer_pt_BR.jar"/>
+        <file crc="1879019943" name="modules/locale/org-netbeans-modules-cnd-lexer_ru.jar"/>
+        <file crc="1755554066" name="modules/locale/org-netbeans-modules-cnd-lexer_zh_CN.jar"/>
+        <file crc="904095502" name="modules/org-netbeans-modules-cnd-lexer.jar"/>
+    </module_version>
+</module>

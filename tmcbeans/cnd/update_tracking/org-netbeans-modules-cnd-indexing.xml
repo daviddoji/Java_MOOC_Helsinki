@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.indexing">
+    <module_version install_time="1475191347811" last="false" origin="installer" specification_version="1.13.2.1">
+        <file crc="3722384464" name="config/Modules/org-netbeans-modules-cnd-indexing.xml"/>
+        <file crc="4119310337" name="modules/locale/org-netbeans-modules-cnd-indexing_ja.jar"/>
+        <file crc="1197656069" name="modules/locale/org-netbeans-modules-cnd-indexing_pt_BR.jar"/>
+        <file crc="1752683473" name="modules/locale/org-netbeans-modules-cnd-indexing_ru.jar"/>
+        <file crc="2060964555" name="modules/locale/org-netbeans-modules-cnd-indexing_zh_CN.jar"/>
+        <file crc="160314247" name="modules/org-netbeans-modules-cnd-indexing.jar"/>
+    </module_version>
+    <module_version install_time="1516649947683" last="true" origin="NetBeans Distribution" specification_version="1.13.4.1">
+        <file crc="3722384464" name="config/Modules/org-netbeans-modules-cnd-indexing.xml"/>
+        <file crc="2670930265" name="modules/locale/org-netbeans-modules-cnd-indexing_ja.jar"/>
+        <file crc="3196559014" name="modules/locale/org-netbeans-modules-cnd-indexing_pt_BR.jar"/>
+        <file crc="566795325" name="modules/locale/org-netbeans-modules-cnd-indexing_ru.jar"/>
+        <file crc="2023411809" name="modules/locale/org-netbeans-modules-cnd-indexing_zh_CN.jar"/>
+        <file crc="4188289938" name="modules/org-netbeans-modules-cnd-indexing.jar"/>
+    </module_version>
+</module>

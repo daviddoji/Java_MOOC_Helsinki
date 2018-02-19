@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.remotefs.versioning.api">
+    <module_version install_time="1475191290806" last="false" origin="installer" specification_version="1.3.3.1">
+        <file crc="714859724" name="config/Modules/org-netbeans-modules-remotefs-versioning-api.xml"/>
+        <file crc="3776370974" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_ja.jar"/>
+        <file crc="2148604394" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_pt_BR.jar"/>
+        <file crc="1649808807" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_ru.jar"/>
+        <file crc="74805431" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_zh_CN.jar"/>
+        <file crc="2950488113" name="modules/org-netbeans-modules-remotefs-versioning-api.jar"/>
+    </module_version>
+    <module_version install_time="1516649950432" last="true" origin="NetBeans Distribution" specification_version="1.3.8.1">
+        <file crc="714859724" name="config/Modules/org-netbeans-modules-remotefs-versioning-api.xml"/>
+        <file crc="3026561357" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_ja.jar"/>
+        <file crc="2960630923" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_pt_BR.jar"/>
+        <file crc="2374662459" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_ru.jar"/>
+        <file crc="1093925262" name="modules/locale/org-netbeans-modules-remotefs-versioning-api_zh_CN.jar"/>
+        <file crc="4183724869" name="modules/org-netbeans-modules-remotefs-versioning-api.jar"/>
+    </module_version>
+</module>

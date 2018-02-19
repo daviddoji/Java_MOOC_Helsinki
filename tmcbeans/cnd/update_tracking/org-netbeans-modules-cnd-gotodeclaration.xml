@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.gotodeclaration">
+    <module_version install_time="1475191346371" last="false" origin="installer" specification_version="1.32.6.1">
+        <file crc="1482967989" name="config/Modules/org-netbeans-modules-cnd-gotodeclaration.xml"/>
+        <file crc="4134297848" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_ja.jar"/>
+        <file crc="2482049937" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_pt_BR.jar"/>
+        <file crc="2774295694" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_ru.jar"/>
+        <file crc="162153546" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_zh_CN.jar"/>
+        <file crc="3201334843" name="modules/org-netbeans-modules-cnd-gotodeclaration.jar"/>
+    </module_version>
+    <module_version install_time="1516649945233" last="true" origin="NetBeans Distribution" specification_version="1.32.8.1">
+        <file crc="1482967989" name="config/Modules/org-netbeans-modules-cnd-gotodeclaration.xml"/>
+        <file crc="1943794939" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_ja.jar"/>
+        <file crc="2027783744" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_pt_BR.jar"/>
+        <file crc="1325827524" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_ru.jar"/>
+        <file crc="1623598945" name="modules/locale/org-netbeans-modules-cnd-gotodeclaration_zh_CN.jar"/>
+        <file crc="918052663" name="modules/org-netbeans-modules-cnd-gotodeclaration.jar"/>
+    </module_version>
+</module>

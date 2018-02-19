@@ -1,0 +1,99 @@
+In Netbeans: sout+TAB --> System.out.println("...")
+
+Careful with the character encoding
+
+Use camelCase notation
+
+Variable names that have been defined before cannot be used
+
+Neither command names such as System.out.print
+
+If a string is on either side of the + operator, the
+other side is converted to a string and a new string is created
+
+
+import java.util.Scanner;
+Scanner reader = new Scanner(System.in); --> creates a reader object
+String name = reader.nextLine(); --> Reads a line of input from the user and assigns it
+                                     to the variable called name
+int number = Integer.parseInt(reader.nextLine()); --> integers need to be parsed before
+
+You can easily indent your program by pressing shift, alt, and f simultaneously.
+
+if {}
+else if {}
+else {}
+
+For string comparison, we use the equals. command, which is always associated with the 
+string to compare.
+
+The loop can be interrupted using e.g. the break command.
+
+If you have, for example, the variable String familyName; in your code, you do not need to 
+always write familyName. Try what happens when you type in f and then press CTRL and space 
+simultaneously. You can also use auto-completion with commands like while by typing in w 
+and then CTRL + space.
+
+you can get NetBeans to auto-indent your code by pressing Alt+Shift+F
+
+In procedural programming - which is the way of programming we have been studying so far - a 
+program is divided in to smaller parts, methods. A method works as a separate part of a 
+program and it can be called from anywhere in the program. When a method is called, execution 
+of the program moves to the beginning of the called method. After the execution of the method 
+is done, the program will continue from where the method was called.
+
+In object oriented programming, just like in procedural programming, we attempt to divide a 
+program into smaller parts. In object-oriented programming the small parts are objects. Each 
+separate object has its own individual responsibility; an object contains a related group of 
+information and functionality. Object-oriented programs consist of multiple objects which 
+together define how the program works.
+
+The type of a certain group of objects is called a class. ArrayList is a class, as are String,
+Scanner, and so forth. Objects, on the other hand, are instances of classes.
+
+
+We will create a new class in our project. In NetBeans, this can be done in projects on the
+ left, from the right click menu select new, java class. We will name the class in the dialog 
+that pops up.
+
+Hiding things within an object is called encapsulation.
+
+In Java, it is considered the 'correct' way to name an object-variable-returning method in this 
+manner; as getVariableName. Methods like these are often called 'getters'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd/1">
+    <module_version install_time="1475191307042" last="false" origin="installer" specification_version="1.41.5.1">
+        <file crc="1346693608" name="bin/dorun.sh"/>
+        <file crc="525386675" name="config/Modules/org-netbeans-modules-cnd.xml"/>
+        <file crc="962362994" name="modules/docs/org-netbeans-modules-cnd.jar"/>
+        <file crc="190951482" name="modules/locale/org-netbeans-modules-cnd_ja.jar"/>
+        <file crc="1287778594" name="modules/locale/org-netbeans-modules-cnd_pt_BR.jar"/>
+        <file crc="1693159215" name="modules/locale/org-netbeans-modules-cnd_ru.jar"/>
+        <file crc="82623749" name="modules/locale/org-netbeans-modules-cnd_zh_CN.jar"/>
+        <file crc="2205312750" name="modules/org-netbeans-modules-cnd.jar"/>
+    </module_version>
+    <module_version install_time="1516649945995" last="true" origin="NetBeans Distribution" specification_version="1.41.7.1">
+        <file crc="1346693608" name="bin/dorun.sh"/>
+        <file crc="525386675" name="config/Modules/org-netbeans-modules-cnd.xml"/>
+        <file crc="3082764085" name="modules/docs/org-netbeans-modules-cnd.jar"/>
+        <file crc="3981469215" name="modules/locale/org-netbeans-modules-cnd_ja.jar"/>
+        <file crc="3837391166" name="modules/locale/org-netbeans-modules-cnd_pt_BR.jar"/>
+        <file crc="408931823" name="modules/locale/org-netbeans-modules-cnd_ru.jar"/>
+        <file crc="1529093277" name="modules/locale/org-netbeans-modules-cnd_zh_CN.jar"/>
+        <file crc="2394495251" name="modules/org-netbeans-modules-cnd.jar"/>
+    </module_version>
+</module>

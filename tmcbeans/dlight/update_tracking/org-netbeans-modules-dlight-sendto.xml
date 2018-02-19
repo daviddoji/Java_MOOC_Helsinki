@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.dlight.sendto">
+    <module_version install_time="1475191289983" last="false" origin="installer" specification_version="1.3.4.1">
+        <file crc="1737803882" name="config/Modules/org-netbeans-modules-dlight-sendto.xml"/>
+        <file crc="532977300" name="modules/locale/org-netbeans-modules-dlight-sendto_ja.jar"/>
+        <file crc="2754442861" name="modules/locale/org-netbeans-modules-dlight-sendto_pt_BR.jar"/>
+        <file crc="3315534030" name="modules/locale/org-netbeans-modules-dlight-sendto_ru.jar"/>
+        <file crc="2034789672" name="modules/locale/org-netbeans-modules-dlight-sendto_zh_CN.jar"/>
+        <file crc="4137890341" name="modules/org-netbeans-modules-dlight-sendto.jar"/>
+    </module_version>
+    <module_version install_time="1516649950150" last="true" origin="NetBeans Distribution" specification_version="1.3.6.1">
+        <file crc="1737803882" name="config/Modules/org-netbeans-modules-dlight-sendto.xml"/>
+        <file crc="1760022576" name="modules/locale/org-netbeans-modules-dlight-sendto_ja.jar"/>
+        <file crc="2421433362" name="modules/locale/org-netbeans-modules-dlight-sendto_pt_BR.jar"/>
+        <file crc="3281909367" name="modules/locale/org-netbeans-modules-dlight-sendto_ru.jar"/>
+        <file crc="2501861773" name="modules/locale/org-netbeans-modules-dlight-sendto_zh_CN.jar"/>
+        <file crc="244319434" name="modules/org-netbeans-modules-dlight-sendto.jar"/>
+    </module_version>
+</module>
