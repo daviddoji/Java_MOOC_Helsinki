@@ -1,44 +1,59 @@
 import java.util.ArrayList;
 
 public class Variance {
-    // Copy here sum from exercise 63 
+    // method
     public static int sum(ArrayList<Integer> list) {
+        // definition of variables
         int result = 0;
+        
+        // loop
         for (int element : list) {
             result += element;
         }
         return result;
     }
     
-    // Copy here average from exercise 64 
+    // method
     public static double average(ArrayList<Integer> list) {
-        double result = (double)sum(list)/list.size();
+        // definition of variables
+        double result;
+        
+        // make calculation using method call
+        result = 1.0*sum(list) / list.size();
+        
         return result;
     }
 
+    // method
     public static double variance(ArrayList<Integer> list) {
-        // write code here
+        // definition of variables
         double average = average(list);
-        double variance_buffer = 0.0;
-        double variance_result;
+        double varianceBuffer = 0.0;
+        double varianceResult;
         
-        for(int i : list){
-            variance_buffer = variance_buffer + Math.pow((i-average), 2);
+        // loop
+        for (int i : list) {
+            varianceBuffer = varianceBuffer + Math.pow((i - average), 2);
         }
         
-        variance_result = variance_buffer / (list.size()-1);
+        // make computation
+        varianceResult = varianceBuffer / (list.size() - 1);
         
-        return variance_result;
+        return varianceResult;
     }
     
+    // main program
     public static void main(String[] args) {
+        // creation of array
         ArrayList<Integer> list = new ArrayList<Integer>();
+        
+        // add elements to array
         list.add(3);
         list.add(2);
         list.add(7);
         list.add(2);
-        //list.add(1);
         
+        // print out with method call
         System.out.println("The variance is: " + variance(list));
     }
 

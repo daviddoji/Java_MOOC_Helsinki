@@ -4,20 +4,25 @@ import java.util.Scanner;
 public class WordInsideWord {
 
     public static void main(String[] args) {
+        // for reading user input
         Scanner reader = new Scanner(System.in);
         
+        // ask user input
         System.out.print("Type the first word: ");
-        String firstword = reader.nextLine();
-        
+        String word = reader.nextLine();
         System.out.print("Type the second word: ");
-        String secondword = reader.nextLine();
+        String subword = reader.nextLine();
         
-        int index = firstword.indexOf(secondword);
+        // definition of variables
+        int index = word.indexOf(subword);
         
+        // check if subword is in word
         if (index != -1) {
-            System.out.println("The word '" + secondword + "' is found in the word '" + firstword + "'.");
+            System.out.println("The word '" + subword 
+                    + "' is found in the word '" + word + "'.");
         } else {
-            System.out.println("The word '" + secondword + "' is not found in the word '" + firstword + "'.");
+            System.out.println("The word '" + subword 
+                    + "' is not found in the word '" + word + "'.");
         }
     }
 }

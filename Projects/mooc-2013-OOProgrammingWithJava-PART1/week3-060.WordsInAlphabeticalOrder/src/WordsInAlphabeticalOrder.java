@@ -6,26 +6,35 @@ import java.util.Scanner;
 public class WordsInAlphabeticalOrder {
 
     public static void main(String[] args) {
+        // for reading user input
         Scanner reader = new Scanner(System.in);
-        // create here an ArrayList
+        
+        // array creation
         ArrayList<String> words = new ArrayList<String>();
         
+        // loop
         while (true) {
+            // ask user input
             System.out.print("Type a word: ");
             String word = reader.nextLine();
-            if (!word.equals("")) {
-                words.add(word);
-            } else if (word.equals("")){
-                words.remove(word);
+            // check if typed word is on the array
+            if (words.contains(word)) {
+                System.out.println("You gave the word " + word + " twice");
                 break;
-            }  
+            }
+            // otherwise, add word to array
+            words.add(word);
         }
         
+        // library method to sort an array by alphabetical order
         Collections.sort(words);
         
+        // print out
         System.out.println("You typed the following words:");
+        
+        // loop through the array
         for (String word : words) {
-            System.out.println( word );
+            System.out.println("word");
         }
     }
 }

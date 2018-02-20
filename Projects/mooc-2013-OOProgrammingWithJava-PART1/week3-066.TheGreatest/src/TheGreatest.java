@@ -1,24 +1,34 @@
 import java.util.ArrayList;
 
 public class TheGreatest {
+    
+    // method
     public static int greatest(ArrayList<Integer> list) {
-        // write code here
+        // definition of variables and initialization
         int largest = list.get(0);
         
+        // loop
         for(int i : list){
-            if(i > largest)
+            // check if varible is greater than variable
+            if(i > largest) {
                 largest = i;
+            }
         }
         return largest;
     }
 
+    // main program 
     public static void main(String[] args) {
-        ArrayList<Integer> lista = new ArrayList<Integer>();
-        lista.add(3);
-        lista.add(2);
-        lista.add(7);
-        lista.add(2);
+        // creation of array
+        ArrayList<Integer> list = new ArrayList<Integer>();
         
-        System.out.println("The greatest number is: " + greatest(lista));
+        // add elements to array
+        list.add(3);
+        list.add(2);
+        list.add(7);
+        list.add(2);
+        
+        // print out with method call
+        System.out.println("The greatest number is: " + greatest(list));
     }
 }

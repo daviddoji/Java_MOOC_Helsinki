@@ -6,12 +6,12 @@ import fi.helsinki.cs.tmc.edutestutils.Points;
 public class PalindromiTest {
     public void t0(String s) {
         assertFalse("String \""+s+"\" is not a palindrome! Your program claimed it is.",
-                    Palindromi.palindrome(s));
+                    Palindrome.palindrome(s));
     }
 
     public void t1(String s) {
         assertTrue("String \""+s+"\" is a palindrome! Your program claimed it's not.",
-                   Palindromi.palindrome(s));
+                   Palindrome.palindrome(s));
     }
 
     @Test
