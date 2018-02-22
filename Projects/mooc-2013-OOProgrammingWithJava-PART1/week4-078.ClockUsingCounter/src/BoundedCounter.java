@@ -8,17 +8,21 @@
  *
  * @author david
  */
+
+// class
 public class BoundedCounter {
+    
+    // definition of variables
     private int value = 0;
     private int upperLimit;
 
+    // constructor
     public BoundedCounter(int upperLimit) {
-        // write code here
         this.upperLimit = upperLimit;
     }
 
+    // method
     public void next() {
-        // write code here
         if (this.value < this.upperLimit) {
             this.value++;
         } else {
@@ -26,8 +30,8 @@ public class BoundedCounter {
         }
     }
 
+    // method
     public String toString() {
-        // write code here
         if (this.value < 10) {
             return "0" + value;
         } else {
@@ -35,13 +39,13 @@ public class BoundedCounter {
         }
     }
     
+    // method
     public int getValue() {
-        // write here code that returns the value
         return this.value;
     }
     
+    // method
     public void setValue(int newValue) {
-        // write here code that returns the value
         if (newValue >= 0 && newValue<=this.upperLimit) {
             this.value = newValue;
         }

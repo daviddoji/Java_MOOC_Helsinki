@@ -1,26 +1,29 @@
-
+// class
 public class NumberStatistics {
+    
+    // definition of variables
     private int amountOfNumbers;
     private int sum;
 
+    // constructor
     public NumberStatistics() {
         // initialize here the object variable amountOfNumbers
         this.amountOfNumbers = 0;
     }
 
+    // method
     public void addNumber(int number) {
-        // code here
         this.amountOfNumbers++;
         this.sum = sum + number;
     }
 
+    // method
     public int amountOfNumbers() {
-        // code here
         return amountOfNumbers;
     }
     
+    // method
     public int sum() {
-        // code here
         if (amountOfNumbers == 0) {
             return 0;
         } else {
@@ -28,8 +31,8 @@ public class NumberStatistics {
         }
     }
 
+    // method
     public double average() {
-        // code here
         if (amountOfNumbers == 0) {
             return 0;
         } else {

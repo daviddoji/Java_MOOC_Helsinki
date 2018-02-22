@@ -1,19 +1,23 @@
+// class
 public class DecreasingCounter {
-    private int value;  // instance variable that remembers the value of the counter
+    // definition of variables
+    private int value; 
     private int initialValue;
 
+    // constructor
     public DecreasingCounter(int valueAtStart) {
         this.value = valueAtStart;
         this.initialValue = valueAtStart;
     }
 
+    // method
     public void printValue() {
-        // do not touch this!
         System.out.println("value: " + this.value);
     }
 
+    // method
     public void decrease() {
-        // write here code to decrease counter value by one
+        // to decrease counter value by one
         if (this.value == 0) {
             this.value = 0;
         } else {
@@ -21,11 +25,12 @@ public class DecreasingCounter {
         }
     }
 
-    // and here the rest of the methods
+    // method
     public void reset() {
         this.value = 0;
     }
     
+    // method
     public void setInitial() {
         this.value = initialValue;
     }

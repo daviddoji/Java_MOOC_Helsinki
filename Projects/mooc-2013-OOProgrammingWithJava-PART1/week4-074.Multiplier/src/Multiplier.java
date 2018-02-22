@@ -8,7 +8,10 @@
  *
  * @author david
  */
+
+// class
 public class Multiplier {
+    // definition of variables
     private int ownNumber;
     
     // constructor

@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        // You can test your new class here, try e.g.:
-        
+        // Product creation using class
         Product t = new Product("Banana", 1.1, 13);
+        
+        // print out using method from class
         t.printProduct();
     }
 }

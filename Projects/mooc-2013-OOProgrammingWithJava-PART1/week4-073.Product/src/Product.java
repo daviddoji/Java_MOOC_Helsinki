@@ -8,7 +8,11 @@
  *
  * @author david
  */
+
+// class
 public class Product {
+    
+    // definition of variables
     private String name;
     private int amount;
     private double price;
@@ -20,7 +24,9 @@ public class Product {
         this.amount = amountAtStart;
     }
     
+    // method
     public void printProduct() {
-        System.out.println(this.name + ", price " + this.price + ", amount " + this.amount);
+        System.out.println(this.name + ", price " + this.price + ", amount " 
+                + this.amount);
     }
 }

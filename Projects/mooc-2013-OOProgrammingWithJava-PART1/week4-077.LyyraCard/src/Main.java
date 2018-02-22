@@ -4,12 +4,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // add here code that tests LyraCard. However before doing 77.6 remove the
-        // other code 
+        // objects creation using class
         LyyraCard cardPekka = new LyyraCard(20);
         LyyraCard cardBrian = new LyyraCard(30);
 
-        // write code here
+        // method calls
         cardPekka.payGourmet();
         cardBrian.payEconomical();
         
@@ -17,7 +16,6 @@ public class Main {
         System.out.println("Brian: " + cardBrian);
         
         cardPekka.loadMoney(20);
-        
         cardBrian.payGourmet();
         
         System.out.println("Pekka: " + cardPekka);
@@ -25,7 +23,7 @@ public class Main {
         
         cardPekka.payEconomical();
         cardPekka.payEconomical();
-        
+    
         cardBrian.loadMoney(50);
         
         System.out.println("Pekka: " + cardPekka);

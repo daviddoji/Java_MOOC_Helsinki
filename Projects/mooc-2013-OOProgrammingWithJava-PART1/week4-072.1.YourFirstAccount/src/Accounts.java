@@ -3,11 +3,9 @@ import java.util.Scanner;
 
 public class Accounts {
 
-    public static void main(String[] args) {
-        // Code in Account.Java should not be touched!
-        // write your code here
-        
-        // creation of account
+    // main program
+    public static void main(String[] args) {        
+        // creation of account using class
         Account newAccount = new Account("Example account", 100.00);
         
         // deposit in the account
@@ -15,7 +13,5 @@ public class Accounts {
         
         // print the balance
         System.out.println(newAccount);
-        
     }
-
 }
