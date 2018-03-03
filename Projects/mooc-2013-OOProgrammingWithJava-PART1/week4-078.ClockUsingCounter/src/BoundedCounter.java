@@ -13,12 +13,13 @@
 public class BoundedCounter {
     
     // definition of variables
-    private int value = 0;
+    private int value;
     private int upperLimit;
 
     // constructor
     public BoundedCounter(int upperLimit) {
-        this.upperLimit = upperLimit;
+        this.value = upperLimit;
+        this.upperLimit = 59;
     }
 
     // method
